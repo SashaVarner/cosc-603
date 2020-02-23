@@ -1,7 +1,7 @@
 package travis_ci_tutorial_java;
 
 import org.junit.Test;
-import sun.java2d.pipe.SpanShapeRenderer;
+
 
 import static org.junit.Assert.assertEquals;
 
@@ -22,7 +22,8 @@ public class SimpleCalculatorTest {
 	@Test
 	public void testMultiply() {
 		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.mult(1,2), 2);
+		assertEquals(calc.mul(1,2), 2);
 	}
-}
+
+		}
 
