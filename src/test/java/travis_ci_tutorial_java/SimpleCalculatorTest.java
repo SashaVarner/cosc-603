@@ -32,5 +32,12 @@ public class SimpleCalculatorTest {
 
 	}
 
+	@Test
+	public void testDivideByZero() {
+		SimpleCalculator calc = new SimpleCalculator();
+		assertEquals(calc.div(4,0), -1);
+
+	}
+
 		}
 
