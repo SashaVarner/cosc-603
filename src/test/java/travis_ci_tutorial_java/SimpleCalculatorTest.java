@@ -22,7 +22,14 @@ public class SimpleCalculatorTest {
 	@Test
 	public void testMultiply() {
 		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.mul(1,2), 2);
+		assertEquals(calc.mult(1,2), 2);
+	}
+
+	@Test
+	public void testDivision() {
+		SimpleCalculator calc = new SimpleCalculator();
+		assertEquals(calc.div(4,2), 2);
+
 	}
 
 		}
